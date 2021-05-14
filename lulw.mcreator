@@ -92,8 +92,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "menu",
-      "path": "~/menu"
+      "registry_name": "menu"
     },
     {
       "name": "Menuteleportmesic",
@@ -110,8 +109,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/menu"
+      }
     },
     {
       "name": "Gui",
@@ -144,8 +142,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/menu"
+      }
     },
     {
       "name": "M",
@@ -154,8 +151,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "m",
-      "path": "~/menu"
+      "registry_name": "m"
     }
   ],
   "variable_elements": [],
