@@ -7,6 +7,5 @@
   "block.lulw.copper_ore": "Copper Ore",
   "block.lulw.moon_rock": "Moon Rock",
   "item.lulw.planet_moon": "Planet Moon Portal Igniter",
-  "fluid.oil": "Oil",
-  "key.lulw.m": "menu_open"
+  "fluid.oil": "Oil"
 }
