@@ -84,6 +84,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oil"
+    },
+    {
+      "name": "Menu",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "menu",
+      "path": "~/menu"
+    },
+    {
+      "name": "Menuteleportmesic",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "menuteleportmesic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/menu"
+    },
+    {
+      "name": "Gui",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/menu"
+    },
+    {
+      "name": "M",
+      "type": "keybind",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m",
+      "path": "~/menu"
     }
   ],
   "variable_elements": [],
@@ -98,7 +170,8 @@
       "block.lulw.copper_ore": "Copper Ore",
       "block.lulw.moon_rock": "Moon Rock",
       "item.lulw.planet_moon": "Planet Moon Portal Igniter",
-      "fluid.oil": "Oil"
+      "fluid.oil": "Oil",
+      "key.lulw.m": "menu_open"
     }
   },
   "foldersRoot": {
