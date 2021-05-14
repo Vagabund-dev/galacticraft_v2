@@ -103,12 +103,7 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "menu",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "lulw",

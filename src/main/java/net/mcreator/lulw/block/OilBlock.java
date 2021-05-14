@@ -76,7 +76,7 @@ public class OilBlock extends LulwModElements.ModElement {
 	@Override
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
-				FluidAttributes.builder(new ResourceLocation("lulw:blocks/oil_ropa"), new ResourceLocation("lulw:blocks/oil_ropa")).luminosity(0)
+				FluidAttributes.builder(new ResourceLocation("lulw:blocks/oil2"), new ResourceLocation("lulw:blocks/block2")).luminosity(0)
 						.density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("oil");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("oil_flowing");
