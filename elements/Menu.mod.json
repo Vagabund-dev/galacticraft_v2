@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "mìsíc",
+          "onClick": {
+            "name": "Menuteleportmesic"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "mìsíc",
+          "x": 132,
+          "y": 45
+        }
+      }
+    ]
+  }
+}

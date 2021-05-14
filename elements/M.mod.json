@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "menu_open",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Gui"
+    }
+  }
+}
