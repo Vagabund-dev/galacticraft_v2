@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lulw:blocks/moon_rock2",
+    "up": "lulw:blocks/moon_rock2",
+    "north": "lulw:blocks/moon_rock2",
+    "east": "lulw:blocks/moon_rock2",
+    "south": "lulw:blocks/moon_rock2",
+    "west": "lulw:blocks/moon_rock2",
+    "particle": "lulw:blocks/moon_rock2"
+  }
+}

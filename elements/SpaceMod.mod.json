@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Space ",
+    "icon": {
+      "value": "CUSTOM:CopperOre"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "Menu",
+    "onKeyPressed": {
+      "name": "DimenzeCommandExecuted"
+    }
+  }
+}

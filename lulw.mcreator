@@ -1,0 +1,127 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "SpaceMod",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "space_mod"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CopperIngot1",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot_1"
+    },
+    {
+      "name": "MoonRock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_rock"
+    },
+    {
+      "name": "PlanetMoon",
+      "type": "dimension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planet_moon",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "MoonDirt",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_dirt"
+    },
+    {
+      "name": "Moon",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lulw.copper_ingot": "Copper Ingot",
+      "itemGroup.tabspace_mod": "Space ",
+      "block.lulw.moon_dirt": "Moon Dirt",
+      "biome.lulw.moon": "Moon",
+      "item.lulw.oil_bucket": "Oil Bucket",
+      "block.lulw.copper_ore": "Copper Ore",
+      "block.lulw.moon_rock": "Moon Rock",
+      "item.lulw.planet_moon": "Planet Moon Portal Igniter",
+      "fluid.oil": "Oil"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lulw",
+    "modName": "Lulw",
+    "version": "1.0.0",
+    "author": "gamin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.lulw",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
