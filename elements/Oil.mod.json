@@ -4,7 +4,7 @@
   "definition": {
     "name": "Oil",
     "textureStill": "oil2",
-    "textureFlowing": "oil_animated4",
+    "textureFlowing": "oil_animated1",
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,

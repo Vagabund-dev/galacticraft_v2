@@ -92,7 +92,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "menu"
+      "registry_name": "menu",
+      "path": "~/menu"
     },
     {
       "name": "Menuteleportmesic",
@@ -109,7 +110,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/menu"
     },
     {
       "name": "Gui",
@@ -142,7 +144,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/menu"
     },
     {
       "name": "M",
@@ -151,7 +154,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "m"
+      "registry_name": "m",
+      "path": "~/menu"
     }
   ],
   "variable_elements": [],
@@ -172,7 +176,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "menu",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "lulw",
