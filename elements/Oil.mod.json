@@ -18,10 +18,6 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "ocean"
-      }
-    ]
+    "restrictionBiomes": []
   }
 }
