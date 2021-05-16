@@ -3,8 +3,8 @@
   "_type": "fluid",
   "definition": {
     "name": "Oil",
-    "textureStill": "oil2",
-    "textureFlowing": "oil_texture_animated",
+    "textureStill": "oil_still",
+    "textureFlowing": "oil_flow",
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,
@@ -14,7 +14,7 @@
     "creativeTab": {
       "value": "CUSTOM:SpaceMod"
     },
-    "frequencyOnChunks": 8,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [
       "Surface"
     ],

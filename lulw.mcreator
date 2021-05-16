@@ -77,15 +77,6 @@
       "registry_name": "moon"
     },
     {
-      "name": "Oil",
-      "type": "fluid",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oil"
-    },
-    {
       "name": "Menu",
       "type": "gui",
       "sortid": 10,
@@ -156,22 +147,31 @@
       "ids": {},
       "registry_name": "m",
       "path": "~/menu"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.lulw.copper_ingot": "Copper Ingot",
-      "itemGroup.tabspace_mod": "Space ",
-      "block.lulw.moon_dirt": "Moon Dirt",
       "biome.lulw.moon": "Moon",
-      "item.lulw.oil_bucket": "Oil Bucket",
+      "block.lulw.moon_dirt": "Moon Dirt",
+      "itemGroup.tabspace_mod": "Space ",
       "block.lulw.copper_ore": "Copper Ore",
-      "block.lulw.moon_rock": "Moon Rock",
-      "item.lulw.planet_moon": "Planet Moon Portal Igniter",
       "fluid.oil": "Oil",
-      "key.lulw.m": "menu_open"
+      "key.lulw.m": "menu_open",
+      "item.lulw.copper_ingot": "Copper Ingot",
+      "item.lulw.oil_bucket": "Oil Bucket",
+      "block.lulw.moon_rock": "Moon Rock",
+      "item.lulw.planet_moon": "Planet Moon Portal Igniter"
     }
   },
   "foldersRoot": {

@@ -54,7 +54,7 @@ public class OilBlock extends LulwModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public OilBlock(LulwModElements instance) {
-		super(instance, 9);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -76,8 +76,8 @@ public class OilBlock extends LulwModElements.ModElement {
 	@Override
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
-				FluidAttributes.builder(new ResourceLocation("lulw:blocks/oil2"), new ResourceLocation("lulw:blocks/oil_texture_animated"))
-						.luminosity(0).density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
+				FluidAttributes.builder(new ResourceLocation("lulw:blocks/oil_still"), new ResourceLocation("lulw:blocks/oil_flow")).luminosity(0)
+						.density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("oil");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("oil_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
@@ -103,7 +103,7 @@ public class OilBlock extends LulwModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(8)));
+					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(5)));
 			event.getRegistry().register(feature.setRegistryName("oil_lakes"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lulw:oil_lakes"), configuredFeature);
 		}
