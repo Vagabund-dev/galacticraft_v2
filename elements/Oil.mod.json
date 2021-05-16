@@ -14,10 +14,8 @@
     "creativeTab": {
       "value": "CUSTOM:SpaceMod"
     },
-    "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [],
     "restrictionBiomes": []
   }
 }

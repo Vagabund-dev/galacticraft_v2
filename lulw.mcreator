@@ -156,22 +156,31 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oil"
+    },
+    {
+      "name": "Oilspawn",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oilspawn"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.lulw.copper_ingot": "Copper Ingot",
       "biome.lulw.moon": "Moon",
       "block.lulw.moon_dirt": "Moon Dirt",
       "itemGroup.tabspace_mod": "Space ",
-      "block.lulw.copper_ore": "Copper Ore",
-      "fluid.oil": "Oil",
-      "key.lulw.m": "menu_open",
-      "item.lulw.copper_ingot": "Copper Ingot",
       "item.lulw.oil_bucket": "Oil Bucket",
+      "block.lulw.copper_ore": "Copper Ore",
       "block.lulw.moon_rock": "Moon Rock",
-      "item.lulw.planet_moon": "Planet Moon Portal Igniter"
+      "item.lulw.planet_moon": "Planet Moon Portal Igniter",
+      "fluid.oil": "Oil",
+      "key.lulw.m": "menu_open"
     }
   },
   "foldersRoot": {
