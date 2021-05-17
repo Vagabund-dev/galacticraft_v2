@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lulw:blocks/charcoal",
+    "up": "lulw:blocks/charcoal",
+    "north": "lulw:blocks/charcoal",
+    "east": "lulw:blocks/charcoal",
+    "south": "lulw:blocks/charcoal",
+    "west": "lulw:blocks/charcoal",
+    "particle": "lulw:blocks/charcoal"
+  }
+}

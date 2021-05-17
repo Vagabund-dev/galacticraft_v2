@@ -165,6 +165,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oilspawn"
+    },
+    {
+      "name": "Charcoal",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_ore"
+    },
+    {
+      "name": "CharcoalLootable",
+      "type": "loottable",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_lootable"
     }
   ],
   "variable_elements": [],
@@ -172,6 +190,7 @@
   "language_map": {
     "en_us": {
       "item.lulw.copper_ingot": "Copper Ingot",
+      "block.lulw.charcoal_ore": "Charcoal",
       "biome.lulw.moon": "Moon",
       "block.lulw.moon_dirt": "Moon Dirt",
       "itemGroup.tabspace_mod": "Space ",
