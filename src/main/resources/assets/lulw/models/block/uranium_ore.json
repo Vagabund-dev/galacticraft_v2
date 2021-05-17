@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lulw:blocks/uranium_ore",
+    "up": "lulw:blocks/uranium_ore",
+    "north": "lulw:blocks/uranium_ore",
+    "east": "lulw:blocks/uranium_ore",
+    "south": "lulw:blocks/uranium_ore",
+    "west": "lulw:blocks/uranium_ore",
+    "particle": "lulw:blocks/uranium_ore"
+  }
+}

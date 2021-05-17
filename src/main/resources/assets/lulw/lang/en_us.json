@@ -1,13 +1,14 @@
 {
-  "item.lulw.copper_ingot": "Copper Ingot",
-  "block.lulw.charcoal_ore": "Charcoal",
   "biome.lulw.moon": "Moon",
   "block.lulw.moon_dirt": "Moon Dirt",
   "itemGroup.tabspace_mod": "Space ",
-  "item.lulw.oil_bucket": "Oil Bucket",
   "block.lulw.copper_ore": "Copper Ore",
-  "block.lulw.moon_rock": "Moon Rock",
-  "item.lulw.planet_moon": "Planet Moon Portal Igniter",
+  "block.lulw.uranium_ore": "Uranium Ore",
   "fluid.oil": "Oil",
-  "key.lulw.m": "menu_open"
+  "key.lulw.m": "menu_open",
+  "item.lulw.copper_ingot": "Copper Ingot",
+  "block.lulw.charcoal_ore": "Charcoal",
+  "item.lulw.oil_bucket": "Oil Bucket",
+  "block.lulw.moon_rock": "Moon Rock",
+  "item.lulw.planet_moon": "Planet Moon Portal Igniter"
 }

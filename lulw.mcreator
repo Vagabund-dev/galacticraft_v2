@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_ore"
+      "registry_name": "copper_ore",
+      "path": "~/Ores"
     },
     {
       "name": "SpaceMod",
@@ -155,7 +156,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "oil"
+      "registry_name": "oil",
+      "path": "~/Ores"
     },
     {
       "name": "Oilspawn",
@@ -173,7 +175,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "charcoal_ore"
+      "registry_name": "charcoal_ore",
+      "path": "~/Ores"
     },
     {
       "name": "CharcoalLootable",
@@ -183,23 +186,34 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "charcoal_lootable"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore",
+      "path": "~/Ores"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.lulw.copper_ingot": "Copper Ingot",
-      "block.lulw.charcoal_ore": "Charcoal",
       "biome.lulw.moon": "Moon",
       "block.lulw.moon_dirt": "Moon Dirt",
       "itemGroup.tabspace_mod": "Space ",
-      "item.lulw.oil_bucket": "Oil Bucket",
       "block.lulw.copper_ore": "Copper Ore",
-      "block.lulw.moon_rock": "Moon Rock",
-      "item.lulw.planet_moon": "Planet Moon Portal Igniter",
+      "block.lulw.uranium_ore": "Uranium Ore",
       "fluid.oil": "Oil",
-      "key.lulw.m": "menu_open"
+      "key.lulw.m": "menu_open",
+      "item.lulw.copper_ingot": "Copper Ingot",
+      "block.lulw.charcoal_ore": "Charcoal",
+      "item.lulw.oil_bucket": "Oil Bucket",
+      "block.lulw.moon_rock": "Moon Rock",
+      "item.lulw.planet_moon": "Planet Moon Portal Igniter"
     }
   },
   "foldersRoot": {
@@ -207,6 +221,10 @@
     "children": [
       {
         "name": "menu",
+        "children": []
+      },
+      {
+        "name": "Ores",
         "children": []
       }
     ]
