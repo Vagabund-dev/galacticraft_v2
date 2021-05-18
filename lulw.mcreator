@@ -166,7 +166,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "oilspawn"
+      "registry_name": "oilspawn",
+      "path": "~/struktury"
     },
     {
       "name": "Charcoal",
@@ -196,15 +197,100 @@
       "ids": {},
       "registry_name": "uranium_ore",
       "path": "~/Ores"
+    },
+    {
+      "name": "Rubbertreewood",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreewood",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rubbertreesapling",
+      "type": "plant",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreesapling",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RubbertreesaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreesapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Bonemeal_Rubber_Tree",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonemeal_rubber_tree",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.lulw.moon": "Moon",
-      "block.lulw.moon_dirt": "Moon Dirt",
+      "block.lulw.rubbertreesapling": "RubberTreeSapling",
       "itemGroup.tabspace_mod": "Space ",
+      "block.lulw.moon_dirt": "Moon Dirt",
+      "biome.lulw.moon": "Moon",
       "block.lulw.copper_ore": "Copper Ore",
       "block.lulw.uranium_ore": "Uranium Ore",
       "fluid.oil": "Oil",
@@ -213,7 +299,8 @@
       "block.lulw.charcoal_ore": "Charcoal",
       "item.lulw.oil_bucket": "Oil Bucket",
       "block.lulw.moon_rock": "Moon Rock",
-      "item.lulw.planet_moon": "Planet Moon Portal Igniter"
+      "item.lulw.planet_moon": "Planet Moon Portal Igniter",
+      "block.lulw.rubbertreewood": "Rubbertreewood"
     }
   },
   "foldersRoot": {
@@ -226,6 +313,19 @@
       {
         "name": "Ores",
         "children": []
+      },
+      {
+        "name": "struktury",
+        "children": []
+      },
+      {
+        "name": "bloky",
+        "children": [
+          {
+            "name": "rubber_tree",
+            "children": []
+          }
+        ]
       }
     ]
   },

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lulw:blocks/rubber_wood",
+    "up": "lulw:blocks/rubber_wood",
+    "north": "lulw:blocks/rubber_wood",
+    "east": "lulw:blocks/rubber_wood",
+    "south": "lulw:blocks/rubber_wood",
+    "west": "lulw:blocks/rubber_wood",
+    "particle": "lulw:blocks/rubber_wood"
+  }
+}
