@@ -1,8 +1,8 @@
 {
-  "block.lulw.rubbertreesapling": "RubberTreeSapling",
-  "itemGroup.tabspace_mod": "Space ",
-  "block.lulw.moon_dirt": "Moon Dirt",
+  "block.lulw.rubbertreesapling": "Rubber Tree Sapling",
   "biome.lulw.moon": "Moon",
+  "block.lulw.moon_dirt": "Moon Dirt",
+  "itemGroup.tabspace_mod": "Space ",
   "block.lulw.copper_ore": "Copper Ore",
   "block.lulw.uranium_ore": "Uranium Ore",
   "fluid.oil": "Oil",
@@ -10,7 +10,8 @@
   "item.lulw.copper_ingot": "Copper Ingot",
   "block.lulw.charcoal_ore": "Charcoal",
   "item.lulw.oil_bucket": "Oil Bucket",
+  "block.lulw.rubber_leaves": "Rubber Leaves",
   "block.lulw.moon_rock": "Moon Rock",
   "item.lulw.planet_moon": "Planet Moon Portal Igniter",
-  "block.lulw.rubbertreewood": "Rubbertreewood"
+  "block.lulw.rubbertreewood": "Rubber tree wood"
 }

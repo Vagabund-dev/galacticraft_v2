@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "top_rabber_wood",
-    "textureTop": "top_rabber_wood",
-    "textureLeft": "rubber_wood",
-    "textureFront": "rubber_wood",
-    "textureRight": "rubber_wood",
-    "textureBack": "rubber_wood",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "rabber_tre_supling2",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "rabber_tre_supling2",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rubber tree wood",
+    "name": "Rubber Leaves",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,18 +41,18 @@
     "creativeTab": {
       "value": "CUSTOM:SpaceMod"
     },
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Rubbertreesapling"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "LEAVES"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PLANT"
     },
     "luminance": 0,
     "unbreakable": false,

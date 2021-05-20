@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "rubber_tree_sapling3",
+    "texture": "rubbertreesapling",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "RubberTreeSapling",
+    "name": "Rubber Tree Sapling",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:SpaceMod"

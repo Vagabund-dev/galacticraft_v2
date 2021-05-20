@@ -281,16 +281,26 @@
         ]
       },
       "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RubberLeaves",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubber_leaves",
+      "path": "~/bloky/rubber_tree"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.lulw.rubbertreesapling": "RubberTreeSapling",
-      "itemGroup.tabspace_mod": "Space ",
-      "block.lulw.moon_dirt": "Moon Dirt",
+      "block.lulw.rubbertreesapling": "Rubber Tree Sapling",
       "biome.lulw.moon": "Moon",
+      "block.lulw.moon_dirt": "Moon Dirt",
+      "itemGroup.tabspace_mod": "Space ",
       "block.lulw.copper_ore": "Copper Ore",
       "block.lulw.uranium_ore": "Uranium Ore",
       "fluid.oil": "Oil",
@@ -298,9 +308,10 @@
       "item.lulw.copper_ingot": "Copper Ingot",
       "block.lulw.charcoal_ore": "Charcoal",
       "item.lulw.oil_bucket": "Oil Bucket",
+      "block.lulw.rubber_leaves": "Rubber Leaves",
       "block.lulw.moon_rock": "Moon Rock",
       "item.lulw.planet_moon": "Planet Moon Portal Igniter",
-      "block.lulw.rubbertreewood": "Rubbertreewood"
+      "block.lulw.rubbertreewood": "Rubber tree wood"
     }
   },
   "foldersRoot": {
