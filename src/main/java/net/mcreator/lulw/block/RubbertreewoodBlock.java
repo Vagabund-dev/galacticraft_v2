@@ -2,7 +2,6 @@
 package net.mcreator.lulw.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -34,8 +33,7 @@ public class RubbertreewoodBlock extends LulwModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("rubbertreewood");
 		}
 

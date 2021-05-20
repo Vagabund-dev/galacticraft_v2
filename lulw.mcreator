@@ -318,6 +318,10 @@
     "name": "~",
     "children": [
       {
+        "name": "struktury",
+        "children": []
+      },
+      {
         "name": "menu",
         "children": []
       },
@@ -326,17 +330,21 @@
         "children": []
       },
       {
-        "name": "struktury",
-        "children": []
-      },
-      {
         "name": "bloky",
         "children": [
           {
             "name": "rubber_tree",
             "children": []
+          },
+          {
+            "name": "barrely",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "moon",
+        "children": []
       }
     ]
   },

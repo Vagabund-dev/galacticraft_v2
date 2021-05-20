@@ -1,8 +1,8 @@
 {
   "block.lulw.rubbertreesapling": "Rubber Tree Sapling",
-  "biome.lulw.moon": "Moon",
-  "block.lulw.moon_dirt": "Moon Dirt",
   "itemGroup.tabspace_mod": "Space ",
+  "block.lulw.moon_dirt": "Moon Dirt",
+  "biome.lulw.moon": "Moon",
   "block.lulw.copper_ore": "Copper Ore",
   "block.lulw.uranium_ore": "Uranium Ore",
   "fluid.oil": "Oil",
