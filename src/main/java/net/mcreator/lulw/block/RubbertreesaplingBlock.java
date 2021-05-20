@@ -106,13 +106,18 @@ public class RubbertreesaplingBlock extends LulwModElements.ModElement {
 					.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(5);
+					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("rubbertreesapling"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lulw:rubbertreesapling"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("taiga").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> configuredFeature);
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

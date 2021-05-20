@@ -46,7 +46,7 @@ public class RubbertreesaplingUpdateTickProcedure extends LulwModElements.ModEle
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((Math.random() <= 0.875)) {
+		if ((Math.random() <= 0.975)) {
 			if (world instanceof ServerWorld) {
 				Template template = ((ServerWorld) world).getStructureTemplateManager()
 						.getTemplateDefaulted(new ResourceLocation("lulw", "rubber_tree_structure1"));
