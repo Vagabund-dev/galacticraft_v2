@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lulw:blocks/rubber_tree_sapling"
+    "layer0": "lulw:blocks/rubber_tree_sapling3"
   }
 }
