@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "lulw:blocks/rubber_tree_sapling",
-    "particle": "lulw:blocks/rubber_tree_sapling"
+    "cross": "lulw:blocks/rubber_tree_sapling3",
+    "particle": "lulw:blocks/rubber_tree_sapling3"
   }
 }
