@@ -49,9 +49,18 @@ public class RubbertreesaplingUpdateTickProcedure extends MechanicalCraftModElem
 		if ((Math.random() <= 0.975)) {
 			if (world instanceof ServerWorld) {
 				Template template = ((ServerWorld) world).getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("mechanical_craft", "rubber_tree_structure1"));
+						.getTemplateDefaulted(new ResourceLocation("mechanical_craft", "rubber_tree_structure_kmen"));
 				if (template != null) {
-					template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 2), (int) y, (int) (z - 2)),
+					template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 0), (int) y, (int) (z - 0)),
+							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false),
+							((World) world).rand);
+				}
+			}
+			if (world instanceof ServerWorld) {
+				Template template = ((ServerWorld) world).getStructureTemplateManager()
+						.getTemplateDefaulted(new ResourceLocation("mechanical_craft", "rubber_tree_listi"));
+				if (template != null) {
+					template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 1), (int) (y + 4), (int) (z - 1)),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false),
 							((World) world).rand);
 				}
