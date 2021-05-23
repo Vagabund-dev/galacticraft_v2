@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechanical_craft:blocks/charcoal",
+    "up": "mechanical_craft:blocks/charcoal",
+    "north": "mechanical_craft:blocks/charcoal",
+    "east": "mechanical_craft:blocks/charcoal",
+    "south": "mechanical_craft:blocks/charcoal",
+    "west": "mechanical_craft:blocks/charcoal",
+    "particle": "mechanical_craft:blocks/charcoal"
+  }
+}

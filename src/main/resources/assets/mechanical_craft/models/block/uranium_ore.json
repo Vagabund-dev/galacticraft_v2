@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechanical_craft:blocks/uranium_ore",
+    "up": "mechanical_craft:blocks/uranium_ore",
+    "north": "mechanical_craft:blocks/uranium_ore",
+    "east": "mechanical_craft:blocks/uranium_ore",
+    "south": "mechanical_craft:blocks/uranium_ore",
+    "west": "mechanical_craft:blocks/uranium_ore",
+    "particle": "mechanical_craft:blocks/uranium_ore"
+  }
+}

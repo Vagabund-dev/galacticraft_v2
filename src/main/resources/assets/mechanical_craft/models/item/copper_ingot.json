@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mechanical_craft:items/copper_ingot3"
+  }
+}

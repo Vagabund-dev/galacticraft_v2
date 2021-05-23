@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechanical_craft:blocks/moon_rock2",
+    "up": "mechanical_craft:blocks/moon_rock2",
+    "north": "mechanical_craft:blocks/moon_rock2",
+    "east": "mechanical_craft:blocks/moon_rock2",
+    "south": "mechanical_craft:blocks/moon_rock2",
+    "west": "mechanical_craft:blocks/moon_rock2",
+    "particle": "mechanical_craft:blocks/moon_rock2"
+  }
+}

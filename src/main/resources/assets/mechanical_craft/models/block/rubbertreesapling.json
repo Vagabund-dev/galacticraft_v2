@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mechanical_craft:blocks/rubbertreesapling",
+    "particle": "mechanical_craft:blocks/rubbertreesapling"
+  }
+}

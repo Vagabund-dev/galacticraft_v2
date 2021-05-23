@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="lulw"
+modId="mechanical_craft"
 version="1.0.0"
-displayName="Lulw"
+displayName="mechanical_craft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="gamin, MCreator"
 
-[[dependencies.lulw]]
+[[dependencies.mechanical_craft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"

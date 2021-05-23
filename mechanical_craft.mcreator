@@ -1,0 +1,394 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "SpaceMod",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "space_mod"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CopperIngot1",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot_1"
+    },
+    {
+      "name": "MoonRock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_rock",
+      "path": "~/moon"
+    },
+    {
+      "name": "PlanetMoon",
+      "type": "dimension",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planet_moon",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/moon"
+    },
+    {
+      "name": "MoonDirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_dirt",
+      "path": "~/moon"
+    },
+    {
+      "name": "Moon",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon",
+      "path": "~/moon"
+    },
+    {
+      "name": "Menu",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "menu",
+      "path": "~/menu"
+    },
+    {
+      "name": "Menuteleportmesic",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "menuteleportmesic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/menu"
+    },
+    {
+      "name": "Gui",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/menu"
+    },
+    {
+      "name": "M",
+      "type": "keybind",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m",
+      "path": "~/menu"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Oilspawn",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oilspawn",
+      "path": "~/struktury"
+    },
+    {
+      "name": "Charcoal",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "CharcoalLootable",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charcoal_lootable",
+      "path": "~/Ores"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Rubbertreewood",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreewood",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rubbertreesapling",
+      "type": "plant",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreesapling",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RubbertreesaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreesapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Bonemeal_Rubber_Tree",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bonemeal_rubber_tree",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RubberLeaves",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubber_leaves",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RubberLeaveslootable",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubber_leaveslootable",
+      "path": "~/bloky/rubber_tree"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.lulw.rubbertreesapling": "Rubber Tree Sapling",
+      "biome.lulw.moon": "Moon",
+      "block.mechanical_craft.moon_rock": "Moon Rock",
+      "block.mechanical_craft.copper_ore": "Copper Ore",
+      "block.mechanical_craft.rubber_leaves": "Rubber Leaves",
+      "block.mechanical_craft.charcoal_ore": "Charcoal",
+      "item.lulw.copper_ingot": "Copper Ingot",
+      "block.mechanical_craft.uranium_ore": "Uranium Ore",
+      "block.lulw.rubber_leaves": "Rubber Leaves",
+      "block.lulw.moon_rock": "Moon Rock",
+      "block.lulw.rubbertreewood": "Rubber tree wood",
+      "item.mechanical_craft.oil_bucket": "Oil Bucket",
+      "block.mechanical_craft.moon_dirt": "Moon Dirt",
+      "block.mechanical_craft.rubbertreesapling": "Rubber Tree Sapling",
+      "item.mechanical_craft.copper_ingot": "Copper Ingot",
+      "block.lulw.moon_dirt": "Moon Dirt",
+      "itemGroup.tabspace_mod": "Space ",
+      "block.lulw.copper_ore": "Copper Ore",
+      "block.lulw.uranium_ore": "Uranium Ore",
+      "block.mechanical_craft.rubbertreewood": "Rubber tree wood",
+      "fluid.oil": "Oil",
+      "key.lulw.m": "menu_open",
+      "item.mechanical_craft.planet_moon": "Planet Moon Portal Igniter",
+      "biome.mechanical_craft.moon": "Moon",
+      "block.lulw.charcoal_ore": "Charcoal",
+      "item.lulw.oil_bucket": "Oil Bucket",
+      "key.mechanical_craft.m": "menu_open",
+      "item.lulw.planet_moon": "Planet Moon Portal Igniter"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "struktury",
+        "children": []
+      },
+      {
+        "name": "menu",
+        "children": []
+      },
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "bloky",
+        "children": [
+          {
+            "name": "rubber_tree",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "moon",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mechanical_craft",
+    "modName": "mechanical_craft",
+    "version": "1.0.0",
+    "author": "gamin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mechanical_craft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

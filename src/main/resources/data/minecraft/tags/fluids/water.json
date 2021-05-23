@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lulw:oil",
-    "lulw:oil_flowing"
+    "mechanical_craft:oil",
+    "mechanical_craft:oil_flowing"
   ]
 }

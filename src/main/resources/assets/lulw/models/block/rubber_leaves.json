@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lulw:blocks/rabber_tre_supling2",
-    "particle": "lulw:blocks/rabber_tre_supling2"
-  }
-}

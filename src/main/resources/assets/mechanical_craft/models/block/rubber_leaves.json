@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mechanical_craft:blocks/rabber_tre_supling2",
+    "particle": "mechanical_craft:blocks/rabber_tre_supling2"
+  }
+}
