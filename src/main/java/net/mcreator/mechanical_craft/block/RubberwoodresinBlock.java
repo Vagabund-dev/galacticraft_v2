@@ -2,10 +2,7 @@
 package net.mcreator.mechanical_craft.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
@@ -28,11 +25,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MechanicalCraftModElements.ModElement.Tag
-public class RubbertreewoodBlock extends MechanicalCraftModElements.ModElement {
-	@ObjectHolder("mechanical_craft:rubbertreewood")
+public class RubberwoodresinBlock extends MechanicalCraftModElements.ModElement {
+	@ObjectHolder("mechanical_craft:rubberwoodresin")
 	public static final Block block = null;
-	public RubbertreewoodBlock(MechanicalCraftModElements instance) {
-		super(instance, 4);
+	public RubberwoodresinBlock(MechanicalCraftModElements instance) {
+		super(instance, 24);
 	}
 
 	@Override
@@ -43,10 +40,9 @@ public class RubbertreewoodBlock extends MechanicalCraftModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(0.5f, 1f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(5f, 1f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
-			setRegistryName("rubbertreewood");
+			setRegistryName("rubberwoodresin");
 		}
 
 		@Override
@@ -76,16 +72,6 @@ public class RubbertreewoodBlock extends MechanicalCraftModElements.ModElement {
 			else
 				facing = Direction.SOUTH;;
 			return this.getDefaultState().with(FACING, facing);
-		}
-
-		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 1;
-		}
-
-		@Override
-		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 1;
 		}
 
 		@Override

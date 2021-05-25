@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mechanical_craft:blocks/rabber_tre_supling2",
-    "particle": "mechanical_craft:blocks/rabber_tre_supling2"
+    "all": "mechanical_craft:blocks/dark_oak_leaves",
+    "particle": "mechanical_craft:blocks/dark_oak_leaves"
   }
 }

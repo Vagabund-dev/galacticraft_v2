@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "rabber_tre_supling2",
+    "texture": "dark_oak_leaves",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "rabber_tre_supling2",
@@ -45,7 +45,7 @@
     "customDrop": {
       "value": "CUSTOM:Rubbertreesapling"
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -55,7 +55,7 @@
       "value": "LEAVES"
     },
     "tickRate": 10,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {

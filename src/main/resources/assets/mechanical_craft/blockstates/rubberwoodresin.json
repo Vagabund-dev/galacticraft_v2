@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "mechanical_craft:block/rubberwoodresin"
+    },
+    "facing=north": {
+      "model": "mechanical_craft:block/rubberwoodresin"
+    },
+    "facing=east": {
+      "model": "mechanical_craft:block/rubberwoodresin",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "mechanical_craft:block/rubberwoodresin",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "mechanical_craft:block/rubberwoodresin",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "mechanical_craft:block/rubberwoodresin",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

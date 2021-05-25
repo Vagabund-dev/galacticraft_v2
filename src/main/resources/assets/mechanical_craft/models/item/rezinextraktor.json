@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mechanical_craft:items/grid_treetap"
+  }
+}

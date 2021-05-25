@@ -40,7 +40,7 @@ public class RubberLeavesBlock extends MechanicalCraftModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 1f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool().notSolid().tickRandomly().setOpaque((bs, br, bp) -> false));
 			setRegistryName("rubber_leaves");
 		}
 	}

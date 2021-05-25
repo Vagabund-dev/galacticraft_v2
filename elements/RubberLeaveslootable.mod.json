@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "loottable",
   "definition": {
-    "type": "Generic",
+    "type": "Block",
     "pools": [
       {
         "minrolls": 1,

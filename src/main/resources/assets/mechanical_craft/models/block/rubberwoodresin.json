@@ -3,7 +3,7 @@
   "textures": {
     "down": "mechanical_craft:blocks/rubber_log_top",
     "up": "mechanical_craft:blocks/rubber_log_top",
-    "north": "mechanical_craft:blocks/rubber_wood",
+    "north": "mechanical_craft:blocks/rubber_tree_rezin_21",
     "east": "mechanical_craft:blocks/rubber_wood",
     "south": "mechanical_craft:blocks/rubber_wood",
     "west": "mechanical_craft:blocks/rubber_wood",

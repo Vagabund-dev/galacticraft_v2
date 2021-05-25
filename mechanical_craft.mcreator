@@ -306,6 +306,88 @@
       "ids": {},
       "registry_name": "rubber_leaveslootable",
       "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rubberwoodresin",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberwoodresin",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rezinextraktor",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rezinextraktor",
+      "path": "~/nastroje"
+    },
+    {
+      "name": "RubberwoodresinOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberwoodresin_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rawrezin",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawrezin",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RezinextraktorRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rezinextraktor_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/nastroje"
     }
   ],
   "variable_elements": [],
@@ -316,14 +398,17 @@
       "biome.lulw.moon": "Moon",
       "block.mechanical_craft.moon_rock": "Moon Rock",
       "block.mechanical_craft.copper_ore": "Copper Ore",
+      "item.mechanical_craft.rezinextraktor": "tree trap",
       "block.mechanical_craft.rubber_leaves": "Rubber Leaves",
       "block.mechanical_craft.charcoal_ore": "Charcoal",
       "item.lulw.copper_ingot": "Copper Ingot",
       "block.mechanical_craft.uranium_ore": "Uranium Ore",
       "block.lulw.rubber_leaves": "Rubber Leaves",
       "block.lulw.moon_rock": "Moon Rock",
+      "block.mechanical_craft.rubberwoodresin": "Rubberwoodresin",
       "block.lulw.rubbertreewood": "Rubber tree wood",
       "item.mechanical_craft.oil_bucket": "Oil Bucket",
+      "item.mechanical_craft.rawrezin": "raw rezin",
       "block.mechanical_craft.moon_dirt": "Moon Dirt",
       "block.mechanical_craft.rubbertreesapling": "Rubber Tree Sapling",
       "item.mechanical_craft.copper_ingot": "Copper Ingot",
@@ -368,6 +453,14 @@
       },
       {
         "name": "moon",
+        "children": []
+      },
+      {
+        "name": "stroje",
+        "children": []
+      },
+      {
+        "name": "nastroje",
         "children": []
       }
     ]
