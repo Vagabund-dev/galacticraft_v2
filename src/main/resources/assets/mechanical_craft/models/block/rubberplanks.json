@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechanical_craft:blocks/rubber_planks",
+    "up": "mechanical_craft:blocks/rubber_planks",
+    "north": "mechanical_craft:blocks/rubber_planks",
+    "east": "mechanical_craft:blocks/rubber_planks",
+    "south": "mechanical_craft:blocks/rubber_planks",
+    "west": "mechanical_craft:blocks/rubber_planks",
+    "particle": "mechanical_craft:blocks/rubber_planks"
+  }
+}

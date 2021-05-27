@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechanical_craft:blocks/stripped_oak_log_top",
+    "up": "mechanical_craft:blocks/stripped_oak_log_top",
+    "north": "mechanical_craft:blocks/stripped_oak_log",
+    "east": "mechanical_craft:blocks/stripped_oak_log",
+    "south": "mechanical_craft:blocks/stripped_oak_log",
+    "west": "mechanical_craft:blocks/stripped_oak_log",
+    "particle": "mechanical_craft:blocks/stripped_oak_log_top"
+  }
+}

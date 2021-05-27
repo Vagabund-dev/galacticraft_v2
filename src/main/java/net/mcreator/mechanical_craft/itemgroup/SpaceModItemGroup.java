@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.mechanical_craft.block.CopperOreBlock;
+import net.mcreator.mechanical_craft.item.RezinextraktorItem;
 import net.mcreator.mechanical_craft.MechanicalCraftModElements;
 
 @MechanicalCraftModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class SpaceModItemGroup extends MechanicalCraftModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(CopperOreBlock.block, (int) (1));
+				return new ItemStack(RezinextraktorItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

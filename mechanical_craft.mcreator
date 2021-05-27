@@ -27,7 +27,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_ingot"
+      "registry_name": "copper_ingot",
+      "path": "~/Ores"
     },
     {
       "name": "CopperIngot1",
@@ -36,7 +37,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_ingot_1"
+      "registry_name": "copper_ingot_1",
+      "path": "~/Ores"
     },
     {
       "name": "MoonRock",
@@ -298,16 +300,6 @@
       "path": "~/bloky/rubber_tree"
     },
     {
-      "name": "RubberLeaveslootable",
-      "type": "loottable",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rubber_leaveslootable",
-      "path": "~/bloky/rubber_tree"
-    },
-    {
       "name": "Rubberwoodresin",
       "type": "block",
       "sortid": 24,
@@ -388,6 +380,80 @@
         ]
       },
       "path": "~/nastroje"
+    },
+    {
+      "name": "Rubberplanks",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberplanks",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rubberlogstripped",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberlogstripped",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rezineoak",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rezineoak",
+      "path": "~/nastroje/recipe_rezine_extractore"
+    },
+    {
+      "name": "Rubberlog",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberlog",
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "RubbertreewoodOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertreewood_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
     }
   ],
   "variable_elements": [],
@@ -395,6 +461,7 @@
   "language_map": {
     "en_us": {
       "block.lulw.rubbertreesapling": "Rubber Tree Sapling",
+      "block.mechanical_craft.rubberlogstripped": "Rubber_log_stripped",
       "biome.lulw.moon": "Moon",
       "block.mechanical_craft.moon_rock": "Moon Rock",
       "block.mechanical_craft.copper_ore": "Copper Ore",
@@ -405,18 +472,19 @@
       "block.mechanical_craft.uranium_ore": "Uranium Ore",
       "block.lulw.rubber_leaves": "Rubber Leaves",
       "block.lulw.moon_rock": "Moon Rock",
-      "block.mechanical_craft.rubberwoodresin": "Rubberwoodresin",
+      "block.mechanical_craft.rubberwoodresin": "Rubber log resin",
       "block.lulw.rubbertreewood": "Rubber tree wood",
       "item.mechanical_craft.oil_bucket": "Oil Bucket",
       "item.mechanical_craft.rawrezin": "raw rezin",
       "block.mechanical_craft.moon_dirt": "Moon Dirt",
       "block.mechanical_craft.rubbertreesapling": "Rubber Tree Sapling",
+      "block.mechanical_craft.rubberplanks": "Rubber planks",
       "item.mechanical_craft.copper_ingot": "Copper Ingot",
       "block.lulw.moon_dirt": "Moon Dirt",
-      "itemGroup.tabspace_mod": "Space ",
+      "itemGroup.tabspace_mod": "mechanical craft ",
       "block.lulw.copper_ore": "Copper Ore",
       "block.lulw.uranium_ore": "Uranium Ore",
-      "block.mechanical_craft.rubbertreewood": "Rubber tree wood",
+      "block.mechanical_craft.rubbertreewood": "Rubber log",
       "fluid.oil": "Oil",
       "key.lulw.m": "menu_open",
       "item.mechanical_craft.planet_moon": "Planet Moon Portal Igniter",
@@ -461,7 +529,12 @@
       },
       {
         "name": "nastroje",
-        "children": []
+        "children": [
+          {
+            "name": "recipe_rezine_extractore",
+            "children": []
+          }
+        ]
       }
     ]
   },

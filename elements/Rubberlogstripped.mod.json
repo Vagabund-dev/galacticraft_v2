@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "rubber_log_top",
-    "textureTop": "rubber_log_top",
-    "textureLeft": "rubber_wood",
-    "textureFront": "rubber_tree_rezin_21",
-    "textureRight": "rubber_wood",
-    "textureBack": "rubber_wood",
+    "texture": "stripped_oak_log_top",
+    "textureTop": "stripped_oak_log_top",
+    "textureLeft": "stripped_oak_log",
+    "textureFront": "stripped_oak_log",
+    "textureRight": "stripped_oak_log",
+    "textureBack": "stripped_oak_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Rubber log resin",
+    "name": "Rubber_log_stripped",
     "specialInfo": [],
-    "hardness": 5.0,
-    "resistance": 1.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Rubbertreewood"
+      "value": "CUSTOM:Rubberlogstripped"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "RubberwoodresinOnBlockRightClicked"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
