@@ -1,0 +1,26 @@
+{
+  "group": "mechanical_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mechanical_craft:rubberlogstripped"
+    },
+    "1": {
+      "item": "mechanical_craft:rubberlogstripped"
+    },
+    "2": {
+      "item": "mechanical_craft:rubberlogstripped"
+    },
+    "3": {
+      "item": "mechanical_craft:rubberlogstripped"
+    }
+  },
+  "result": {
+    "item": "mechanical_craft:rubber_log_stripped_bark",
+    "count": 3
+  }
+}

@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:SpaceMod"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": "CUSTOM:Rubberlogstripped"
     },

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rubberlogstripped"
+      },
+      {
+        "value": "CUSTOM:Rubberlogstripped"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Rubberlogstripped"
+      },
+      {
+        "value": "CUSTOM:Rubberlogstripped"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RubberLogStrippedBark"
+    },
+    "name": "rubber_bark",
+    "namespace": "mod"
+  }
+}

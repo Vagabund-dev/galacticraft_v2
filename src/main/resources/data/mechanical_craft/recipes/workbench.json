@@ -1,0 +1,26 @@
+{
+  "group": "mechanical_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mechanical_craft:rubberplanks"
+    },
+    "1": {
+      "item": "mechanical_craft:rubberplanks"
+    },
+    "2": {
+      "item": "mechanical_craft:rubberplanks"
+    },
+    "3": {
+      "item": "mechanical_craft:rubberplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

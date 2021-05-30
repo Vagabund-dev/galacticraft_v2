@@ -1,0 +1,30 @@
+{
+  "group": "mechanical_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "3": {
+      "item": "mechanical_craft:rubberplanks"
+    },
+    "4": {
+      "item": "mechanical_craft:rubberplanks"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mechanical_craft:rezinextraktor",
+    "count": 1
+  }
+}

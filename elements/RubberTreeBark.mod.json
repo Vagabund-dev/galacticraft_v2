@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "rubber_log_top",
-    "textureTop": "rubber_log_top",
+    "texture": "rubber_wood",
+    "textureTop": "rubber_wood",
     "textureLeft": "rubber_wood",
-    "textureFront": "rubber_tree_rezin_21",
+    "textureFront": "rubber_wood",
     "textureRight": "rubber_wood",
     "textureBack": "rubber_wood",
     "renderType": 10,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rubber log resin",
+    "name": "Rubber log",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Rubbertreewood"
+      "value": "CUSTOM:RubberTreeBark"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -63,8 +63,8 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "flammability": 1,
+    "fireSpreadSpeed": 1,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
@@ -101,13 +101,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "RubbertreewoodOnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

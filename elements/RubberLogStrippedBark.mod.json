@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "rubber_log_top",
-    "textureTop": "rubber_log_top",
-    "textureLeft": "rubber_wood",
-    "textureFront": "rubber_tree_rezin_21",
-    "textureRight": "rubber_wood",
-    "textureBack": "rubber_wood",
+    "texture": "stripped_oak_log",
+    "textureTop": "stripped_oak_log",
+    "textureLeft": "stripped_oak_log",
+    "textureFront": "stripped_oak_log",
+    "textureRight": "stripped_oak_log",
+    "textureBack": "stripped_oak_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rubber log resin",
+    "name": "Rubber_log_stripped",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Rubbertreewood"
+      "value": "CUSTOM:RubberLogStrippedBark"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

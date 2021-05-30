@@ -3,8 +3,6 @@ package net.mcreator.mechanical_craft.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
@@ -27,11 +25,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MechanicalCraftModElements.ModElement.Tag
-public class RubbertreewoodBlock extends MechanicalCraftModElements.ModElement {
-	@ObjectHolder("mechanical_craft:rubbertreewood")
+public class RubberLogStrippedBarkBlock extends MechanicalCraftModElements.ModElement {
+	@ObjectHolder("mechanical_craft:rubber_log_stripped_bark")
 	public static final Block block = null;
-	public RubbertreewoodBlock(MechanicalCraftModElements instance) {
-		super(instance, 4);
+	public RubberLogStrippedBarkBlock(MechanicalCraftModElements instance) {
+		super(instance, 35);
 	}
 
 	@Override
@@ -44,7 +42,7 @@ public class RubbertreewoodBlock extends MechanicalCraftModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
-			setRegistryName("rubbertreewood");
+			setRegistryName("rubber_log_stripped_bark");
 		}
 
 		@Override
@@ -77,21 +75,11 @@ public class RubbertreewoodBlock extends MechanicalCraftModElements.ModElement {
 		}
 
 		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 1;
-		}
-
-		@Override
-		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 1;
-		}
-
-		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RubbertreewoodBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(RubberLogStrippedBarkBlock.block, (int) (1)));
 		}
 	}
 }
