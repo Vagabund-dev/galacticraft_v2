@@ -543,9 +543,106 @@
       "ids": {},
       "registry_name": "rubberwoodrezin",
       "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "Rubberleavesdrop",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubberleavesdrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
+    },
+    {
+      "name": "LeavesUpdateTick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bloky/rubber_tree"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Offset",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "repeatTimes",
+      "type": "number",
+      "scope": "global",
+      "value": "0.0"
+    },
+    {
+      "name": "xOff",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "LogFound",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "yOff",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "zOff",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
