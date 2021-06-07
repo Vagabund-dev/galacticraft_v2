@@ -31,7 +31,7 @@ public class RubberLeavesBlock extends MechanicalCraftModElements.ModElement {
 	@ObjectHolder("mechanical_craft:rubber_leaves")
 	public static final Block block = null;
 	public RubberLeavesBlock(MechanicalCraftModElements instance) {
-		super(instance, 3);
+		super(instance, 1);
 	}
 
 	@Override

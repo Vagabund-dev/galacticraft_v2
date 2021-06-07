@@ -13,10 +13,10 @@ import net.mcreator.mechanical_craft.MechanicalCraftModElements;
 
 @MechanicalCraftModElements.ModElement.Tag
 public class RawrezinItem extends MechanicalCraftModElements.ModElement {
-	@ObjectHolder("mechanical_craft:rawrezin")
+	@ObjectHolder("mechanical_craft:raw_resin")
 	public static final Item block = null;
 	public RawrezinItem(MechanicalCraftModElements instance) {
-		super(instance, 27);
+		super(instance, 11);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class RawrezinItem extends MechanicalCraftModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(SpaceModItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("rawrezin");
+			setRegistryName("raw_resin");
 		}
 
 		@Override

@@ -22,7 +22,7 @@ import java.util.Map;
 @MechanicalCraftModElements.ModElement.Tag
 public class Bonemeal_Rubber_TreeProcedure extends MechanicalCraftModElements.ModElement {
 	public Bonemeal_Rubber_TreeProcedure(MechanicalCraftModElements instance) {
-		super(instance, 22);
+		super(instance, 31);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -60,18 +60,9 @@ public class Bonemeal_Rubber_TreeProcedure extends MechanicalCraftModElements.Mo
 				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())) {
 			if (world instanceof ServerWorld) {
 				Template template = ((ServerWorld) world).getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("mechanical_craft", "rubber_tree_structure_kmen"));
+						.getTemplateDefaulted(new ResourceLocation("mechanical_craft", "rubber_tree_structure"));
 				if (template != null) {
-					template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 0), (int) y, (int) (z - 0)),
-							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false),
-							((World) world).rand);
-				}
-			}
-			if (world instanceof ServerWorld) {
-				Template template = ((ServerWorld) world).getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("mechanical_craft", "rubber_tree_listi"));
-				if (template != null) {
-					template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 1), (int) (y + 4), (int) (z - 1)),
+					template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 1), (int) y, (int) (z - 1)),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false),
 							((World) world).rand);
 				}

@@ -25,7 +25,7 @@ public class RezinextraktorItem extends MechanicalCraftModElements.ModElement {
 	@ObjectHolder("mechanical_craft:rezinextraktor")
 	public static final Item block = null;
 	public RezinextraktorItem(MechanicalCraftModElements instance) {
-		super(instance, 25);
+		super(instance, 10);
 	}
 
 	@Override

@@ -61,14 +61,8 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "frequencyOnChunks": 1,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "taiga"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "onTickUpdate": {
       "name": "RubbertreesaplingUpdateTick"
     },

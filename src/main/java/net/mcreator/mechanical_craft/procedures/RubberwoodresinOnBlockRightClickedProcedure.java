@@ -38,7 +38,7 @@ import java.util.HashMap;
 @MechanicalCraftModElements.ModElement.Tag
 public class RubberwoodresinOnBlockRightClickedProcedure extends MechanicalCraftModElements.ModElement {
 	public RubberwoodresinOnBlockRightClickedProcedure(MechanicalCraftModElements instance) {
-		super(instance, 26);
+		super(instance, 32);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

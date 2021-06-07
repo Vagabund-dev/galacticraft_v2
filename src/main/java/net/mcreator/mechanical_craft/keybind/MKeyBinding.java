@@ -31,7 +31,7 @@ public class MKeyBinding extends MechanicalCraftModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public MKeyBinding(MechanicalCraftModElements instance) {
-		super(instance, 18);
+		super(instance, 27);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

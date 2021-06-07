@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mechanical_craft:block/largecrate"
+    },
+    "facing=east": {
+      "model": "mechanical_craft:block/largecrate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mechanical_craft:block/largecrate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mechanical_craft:block/largecrate",
+      "y": 270
+    }
+  }
+}

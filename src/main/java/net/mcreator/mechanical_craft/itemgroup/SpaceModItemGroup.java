@@ -13,7 +13,7 @@ import net.mcreator.mechanical_craft.MechanicalCraftModElements;
 @MechanicalCraftModElements.ModElement.Tag
 public class SpaceModItemGroup extends MechanicalCraftModElements.ModElement {
 	public SpaceModItemGroup(MechanicalCraftModElements instance) {
-		super(instance, 12);
+		super(instance, 22);
 	}
 
 	@Override

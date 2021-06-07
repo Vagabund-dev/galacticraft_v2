@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crate_casing",
+        "2": "rubber_wood",
+        "3": "medium_crate_strip",
+        "missing": "medium_crate_strip"
+      },
+      "name": "default"
+    }
+  }
+}

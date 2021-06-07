@@ -22,7 +22,7 @@ import java.util.HashMap;
 @MechanicalCraftModElements.ModElement.Tag
 public class RubberleavesdropProcedure extends MechanicalCraftModElements.ModElement {
 	public RubberleavesdropProcedure(MechanicalCraftModElements instance) {
-		super(instance, 50);
+		super(instance, 47);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

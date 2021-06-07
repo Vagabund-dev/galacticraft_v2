@@ -23,7 +23,7 @@ public class RubberplanksBlock extends MechanicalCraftModElements.ModElement {
 	@ObjectHolder("mechanical_craft:rubberplanks")
 	public static final Block block = null;
 	public RubberplanksBlock(MechanicalCraftModElements instance) {
-		super(instance, 29);
+		super(instance, 12);
 	}
 
 	@Override

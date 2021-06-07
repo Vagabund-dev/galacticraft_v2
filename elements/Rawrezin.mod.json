@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "grid_resin",
     "customModelName": "Normal",
-    "name": "raw rezin",
+    "name": "raw resin",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:SpaceMod"

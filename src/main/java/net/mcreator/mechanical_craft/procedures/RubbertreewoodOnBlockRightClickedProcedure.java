@@ -17,7 +17,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.AxeItem;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
@@ -25,7 +24,6 @@ import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.mechanical_craft.item.RawrezinItem;
 import net.mcreator.mechanical_craft.block.RubbertreewoodBlock;
 import net.mcreator.mechanical_craft.block.RubberlogstrippedBlock;
 import net.mcreator.mechanical_craft.MechanicalCraftModElements;
@@ -37,7 +35,7 @@ import java.util.HashMap;
 @MechanicalCraftModElements.ModElement.Tag
 public class RubbertreewoodOnBlockRightClickedProcedure extends MechanicalCraftModElements.ModElement {
 	public RubbertreewoodOnBlockRightClickedProcedure(MechanicalCraftModElements instance) {
-		super(instance, 33);
+		super(instance, 34);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -162,16 +160,6 @@ public class RubbertreewoodOnBlockRightClickedProcedure extends MechanicalCraftM
 				(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).setDamage(
 						(int) (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).getDamage())
 								+ 1));
-			}
-			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(RawrezinItem.block, (int) (1)));
-				entityToSpawn.setPickupDelay((int) 10);
-				world.addEntity(entityToSpawn);
-			}
-			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(RawrezinItem.block, (int) (1)));
-				entityToSpawn.setPickupDelay((int) 10);
-				world.addEntity(entityToSpawn);
 			}
 		}
 	}

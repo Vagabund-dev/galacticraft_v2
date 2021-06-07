@@ -1,0 +1,11 @@
+{
+  "parent": "mechanical_craft:custom/large_crate",
+  "textures": {
+    "all": "mechanical_craft:blocks/rubber_planks",
+    "particle": "mechanical_craft:blocks/rubber_planks",
+    "0": "mechanical_craft:blocks/crate_casing",
+    "2": "mechanical_craft:blocks/rubber_wood",
+    "3": "mechanical_craft:blocks/large_crate",
+    "missing": "mechanical_craft:blocks/large_crate"
+  }
+}

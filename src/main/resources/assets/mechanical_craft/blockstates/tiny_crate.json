@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mechanical_craft:block/tiny_crate"
+    },
+    "facing=east": {
+      "model": "mechanical_craft:block/tiny_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mechanical_craft:block/tiny_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mechanical_craft:block/tiny_crate",
+      "y": 270
+    }
+  }
+}

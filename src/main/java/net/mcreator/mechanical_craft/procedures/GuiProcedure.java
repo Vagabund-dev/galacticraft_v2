@@ -25,7 +25,7 @@ import io.netty.buffer.Unpooled;
 @MechanicalCraftModElements.ModElement.Tag
 public class GuiProcedure extends MechanicalCraftModElements.ModElement {
 	public GuiProcedure(MechanicalCraftModElements instance) {
-		super(instance, 17);
+		super(instance, 26);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

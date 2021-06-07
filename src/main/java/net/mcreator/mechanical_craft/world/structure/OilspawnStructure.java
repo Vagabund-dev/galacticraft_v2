@@ -38,7 +38,7 @@ public class OilspawnStructure extends MechanicalCraftModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public OilspawnStructure(MechanicalCraftModElements instance) {
-		super(instance, 19);
+		super(instance, 28);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

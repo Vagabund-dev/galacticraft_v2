@@ -1,0 +1,42 @@
+{
+  "group": "small_crate_recipe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "mechanical_craft:crate_casing"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "mechanical_craft:crate_casing"
+    },
+    "4": {
+      "item": "mechanical_craft:tiny_crate"
+    },
+    "5": {
+      "item": "mechanical_craft:crate_casing"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "mechanical_craft:crate_casing"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mechanical_craft:small_crate",
+    "count": 1
+  }
+}

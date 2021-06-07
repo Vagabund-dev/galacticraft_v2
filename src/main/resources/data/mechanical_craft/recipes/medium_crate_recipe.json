@@ -1,0 +1,37 @@
+{
+  "group": "medium_crate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:small_crate"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    },
+    {
+      "item": "mechanical_craft:crate_casing"
+    }
+  ],
+  "result": {
+    "item": "mechanical_craft:medium_crate",
+    "count": 1
+  }
+}

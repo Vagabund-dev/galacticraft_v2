@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechanical_craft:blocks/crate_casing",
+    "up": "mechanical_craft:blocks/crate_casing",
+    "north": "mechanical_craft:blocks/crate_casing",
+    "east": "mechanical_craft:blocks/crate_casing",
+    "south": "mechanical_craft:blocks/crate_casing",
+    "west": "mechanical_craft:blocks/crate_casing",
+    "particle": "mechanical_craft:blocks/crate_casing"
+  }
+}

@@ -18,7 +18,7 @@ import java.util.Map;
 @MechanicalCraftModElements.ModElement.Tag
 public class LeavesUpdateTickProcedure extends MechanicalCraftModElements.ModElement {
 	public LeavesUpdateTickProcedure(MechanicalCraftModElements instance) {
-		super(instance, 51);
+		super(instance, 48);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

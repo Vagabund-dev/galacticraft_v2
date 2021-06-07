@@ -29,7 +29,7 @@ public class Rubberwoodrezin2Block extends MechanicalCraftModElements.ModElement
 	@ObjectHolder("mechanical_craft:rubberwoodrezin_2")
 	public static final Block block = null;
 	public Rubberwoodrezin2Block(MechanicalCraftModElements instance) {
-		super(instance, 48);
+		super(instance, 16);
 	}
 
 	@Override

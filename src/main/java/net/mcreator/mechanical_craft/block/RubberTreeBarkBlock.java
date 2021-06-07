@@ -39,7 +39,7 @@ public class RubberTreeBarkBlock extends MechanicalCraftModElements.ModElement {
 	@ObjectHolder("mechanical_craft:rubber_tree_bark")
 	public static final Block block = null;
 	public RubberTreeBarkBlock(MechanicalCraftModElements instance) {
-		super(instance, 34);
+		super(instance, 14);
 	}
 
 	@Override

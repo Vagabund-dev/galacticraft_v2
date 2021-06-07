@@ -22,7 +22,7 @@ import java.util.Map;
 @MechanicalCraftModElements.ModElement.Tag
 public class MenuteleportmesicProcedure extends MechanicalCraftModElements.ModElement {
 	public MenuteleportmesicProcedure(MechanicalCraftModElements instance) {
-		super(instance, 16);
+		super(instance, 25);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

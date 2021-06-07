@@ -29,7 +29,7 @@ public class RubberLogStrippedBarkBlock extends MechanicalCraftModElements.ModEl
 	@ObjectHolder("mechanical_craft:rubber_log_stripped_bark")
 	public static final Block block = null;
 	public RubberLogStrippedBarkBlock(MechanicalCraftModElements instance) {
-		super(instance, 35);
+		super(instance, 15);
 	}
 
 	@Override
