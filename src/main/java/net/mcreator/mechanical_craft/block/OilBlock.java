@@ -57,8 +57,8 @@ public class OilBlock extends MechanicalCraftModElements.ModElement {
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
 				FluidAttributes
-						.builder(new ResourceLocation("mechanical_craft:blocks/oil_still"), new ResourceLocation("mechanical_craft:blocks/oil_flow"))
-						.luminosity(0).density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
+						.builder(new ResourceLocation("mechanical_craft:blocks/oil_still"), new ResourceLocation("mechanical_craft:blocks/oil_flow."))
+						.luminosity(16).density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("oil");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("oil_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {

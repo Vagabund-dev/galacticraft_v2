@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "large_crate",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:MediumCrate"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      },
+      {
+        "value": "CUSTOM:CrateCasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Largecrate"
+    },
+    "name": "large_craterecipe",
+    "namespace": "mod"
+  }
+}

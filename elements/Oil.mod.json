@@ -4,8 +4,8 @@
   "definition": {
     "name": "Oil",
     "textureStill": "oil_still",
-    "textureFlowing": "oil_flow",
-    "luminosity": 0,
+    "textureFlowing": "oil_flow.",
+    "luminosity": 16,
     "density": 1000,
     "viscosity": 1000,
     "isGas": false,

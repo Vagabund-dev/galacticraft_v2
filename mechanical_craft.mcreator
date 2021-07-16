@@ -783,6 +783,16 @@
       "ids": {},
       "registry_name": "large_crate_gui",
       "path": "~/stroje/Crates"
+    },
+    {
+      "name": "LargeCraterecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_craterecipe",
+      "path": "~/stroje/Crates"
     }
   ],
   "variable_elements": [
@@ -829,8 +839,8 @@
       "block.lulw.rubbertreesapling": "Rubber Tree Sapling",
       "block.mechanical_craft.rubberwoodrezin_2": "Rubber log resin",
       "block.mechanical_craft.rubberlogstripped": "Rubber_log_stripped",
-      "biome.lulw.moon": "Moon",
       "block.mechanical_craft.tiny_crate": "Tiny Crate",
+      "biome.lulw.moon": "Moon",
       "block.mechanical_craft.copper_ore": "Copper Ore",
       "item.mechanical_craft.rezinextraktor": "tree trap",
       "block.mechanical_craft.largecrate": "Small Crate",
